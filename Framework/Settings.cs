@@ -1,10 +1,10 @@
 ﻿using System;
+
 namespace Team4Tests.Framework
 {
-    public class Settings
+    public static class Settings
     {
-        public Settings()
-        {
-        }
+        public static readonly string Url = "http://52.177.12.77:8080";
+        public static readonly TimeSpan implicitWait = TimeSpan.FromMilliseconds(3000);
     }
 }

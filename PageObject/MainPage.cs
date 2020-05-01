@@ -7,11 +7,5 @@ namespace Team4Tests.PageObject
     {
         public MainPage(IWebDriver driver) : base(driver) { }
         
-
-        public ClothesPage OpenPageOfClothes()
-        {
-            Driver.FindElement(By.XPath("//span[text()='Увійти']")).Click();
-            return new ClothesPage(Driver);
-        }
     }
 }
