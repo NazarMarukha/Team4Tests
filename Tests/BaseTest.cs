@@ -19,7 +19,7 @@ namespace Team4Tests.Tests
             driver.Navigate().GoToUrl(Settings.Url);
         }
 
-        [OneTimeTearDown]
-        public void OneTimeTearDown() => driver.Quit();
+//        [OneTimeTearDown]
+  //      public void OneTimeTearDown() => driver.Quit();
     }
 }

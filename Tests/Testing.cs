@@ -75,12 +75,12 @@ namespace Team4Tests.Tests
         }
 
 
-        [OneTimeTearDown]
-        public void OneTimeTearDown()
-        {
-            driver.Close();
-            driver.Quit();
-        }
+      //  [OneTimeTearDown]
+       // public void OneTimeTearDown()
+        //{
+         //   driver.Close();
+          //  driver.Quit();
+        //}
 
     }
 }
