@@ -17,7 +17,7 @@ namespace Team4Tests.Tests
             
         }
     
-        [TestCase("1", "Tony", "Stark","test17@domain.net","warmachinecoll",
+        [TestCase("1", "Tony", "Stark","test18@domain.net","warmachinecoll",
             "2001-12-05", "Yurko", "123213", "Backer, №221b, 1", "steet storage",
             "24862", "London", "0951681582")]
         public void ShoppiningTest(string sex, string name, string surname, string email, string password, string date,
